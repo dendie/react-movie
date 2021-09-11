@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #32595d;
+}
+
+.wrapper > h1 {
+  font-size: 3rem;
+  color: #32595d;
+  margin: 20px 0;
+}
+
+.no-movie {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.fetch {
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #262626; 
+}
+  
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.header {
+  padding: 10px 40px;
+}
+
+.header > p {
+  font-size: 30px;
+  font-weight: 900;
+  color: #00ab6b;
+}
